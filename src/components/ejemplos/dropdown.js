@@ -10,7 +10,13 @@ class EjemploDropdown extends React.Component {
         this.state = {
             value: "",
         };
+
+      this.handleChange = this.handleChange.bind(this);
     }
+
+  handleChange(value) {
+    this.setState({value: value});
+  }
 
     render(){
         return (
@@ -19,6 +25,7 @@ class EjemploDropdown extends React.Component {
             <Dropdown
                 name="dropdown-example"
                 data={options}
+                onChange={this.handleChange}
             />
 
             <div className="result-box">
