@@ -1,0 +1,46 @@
+#header{
+    background-color: lightblue;
+    height: 90px;
+    padding: 10px;
+}
+
+#content{
+    background-color: white;
+    min-height: 300px;
+    padding: 10px;
+}
+
+#footer{
+    background-color: #dddddd;
+    height: 50px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto;
+    background-color: #ddd;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+// Components
+.list-horizontal{
+
+}
+
+.list-horizontal li{
+    display: inline-block;
+    list-style: none;
+}
+
+.result-box{
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px;
+}
