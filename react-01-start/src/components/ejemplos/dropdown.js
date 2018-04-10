@@ -14,8 +14,8 @@ class EjemploDropdown extends React.Component {
       this.handleChange = this.handleChange.bind(this);
     }
 
-  handleChange(value) {
-    this.setState({value: value});
+  handleChange(e) {
+    this.setState({value: e.target.value});
   }
 
     render(){

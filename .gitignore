@@ -37,7 +37,7 @@ jspm_packages/
 .env
 
 # dist files
-www/dist
+dist/
 
 # ide's
 .idea

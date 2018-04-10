@@ -2,14 +2,6 @@ import React from 'react';
 
 class Dropdown extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    this.props.onChange(event.target.value);
-  }
 
   render() {
     let options = null;
@@ -45,7 +37,7 @@ class Dropdown extends React.Component {
         name={this.props.name}
         className="form-control"
         defaultValue={this.props.defaultValue ? this.props.defaultValue : null}
-        onChange={this.handleChange}
+        onChange={this.props.onChange}
       >
         {options}
       </select>

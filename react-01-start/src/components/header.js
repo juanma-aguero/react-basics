@@ -6,8 +6,7 @@ class Header extends React.Component {
         <div id="header">
             <h1>Intro a React</h1>
             <ul className="list-horizontal">
-                <li>Page 1</li>
-                <li>Page 2</li>
+              <li>Op 1</li>
             </ul>
         </div>
     );
